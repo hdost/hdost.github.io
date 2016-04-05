@@ -6,16 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Harold Dost
+title: Harold Dost's Blog
 email: harold@harolddost.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > 
+  This is a blog about the personal thought and feelings, sometimes
+  even hard information from Harold Dost, Principal Consultant at
+  Raastech, Inc. and amateur surfer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://harolddost.com" # the base hostname & protocol for your site
+url: "http://www.harolddost.com" # the base hostname & protocol for your site
 twitter_username: hdost
 github_username:  hdost
+linkedin_username: harolddost
 
 # Build settings
 markdown: kramdown
