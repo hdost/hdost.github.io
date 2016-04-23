@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "IOUG Collaborate 16"
+date:   2016-04-04 17:30:00 -0400
+categories: ioug oracle collaborate
+---
+
+A little over a week already and IOUG COLLABORATE16 is already over. As usual it was a good combination of networking and learning various tips and tricks. I also was one of the many who had a chance to share my knowledge with others.
+Some of the biggest parts of this conference were to no one's surprise Cloud, IoT, and Big Data. All wonderful buzzwords which mean many things to many people. Especially "Cloud", some offerings out there have really just become glorified hosted services. 
+Those have existed for years! What make providers like AWS revolutionary is not that you can have a server outside your data center 
+(although there is something to be said about not owning the hardware you are running). It's supposed to be about elasticity, defined as, scaling on demand preferably based upon some metric such as CPU load. Now there are many reasons for doing this, but probably the biggest reason is cost. However with hardware availablility being something that is flexible; the problem comes in licensing 
+software. This comes in the form of Operating Systems, Application Servers, Databases, etc. Much of the world is using Tomcat according to [Plumbr](https://plumbr.eu/uncategorized/most-popular-java-ee-servers-2016-edition). Keep in mind that the data may not be representative as these are only based on their clients who already maybe ones wanting to run without licenses. 
+
+For the companies using Tomcat this is not an issue since it is free and open source. However, lets refocus, I came from IOUG which is the "Independent ORACLE Users Group" so most of the people I talk to are using either Glassfish or more likely WebLogic. This is because they are running a number of things, mostly Oracle EBS, JD Edwards, PeopleSoft, etc. Maybe even some of their middleware products such as SOA Suite. If you're using these softwares, the Oracle Linux OS, or the Oracle Database everything is based on the number of cores. Now it's super straight forward and you probably need a law degree to understand it all, but suffice it to say that your cost is correlated to the number of cores that you are using. This licensing price is based on your maximum usage during the year. Look at the situation where a company needs to run payroll at the end of the month every month as is quite common. You need some number of processors to handle the load for 80% days of the month and the 20% of the month you need some very high processor count say 30%. To make the math easy your base is 100 so your max load requires 130 cores. You're running some internal "cloud", some  hybrid solution or even fully on some "cloud" provider. Great you have the ability to scale your hardware and only pay for so much. Sorry, but you have to pay for 130 processors worth of processors. Thankfully this isn't entirely true any more due to some partnerships between Oracle and Amazon there exists some [on-demand pricing](https://aws.amazon.com/rds/oracle/pricing/) for their database, and the same is true for Oracle Linux. The [Oracle Cloud](https://cloud.oracle.com/en_US/compute?resolvetemplatefordevice=true&tabID=1406491857419) service is also out there and they seem to be making progress with it. However, if you are running things like EBS, PeopleSoft, etc. You want to run it internally
+on servers for only a small part of the time you cannot.
+
+Now I might be able to understand why Oracle would be concerned about this it would cut revenues. It could just be their self interest that drives this, and I could understand that. Especially if a large number of customers switch to this model. I do think that there should be a switch to some sort of model where you can license things on demand, but on your own terms. I don't want to pay for 100 licenses when 90% of the time I only need 50. That means
+as a customer I am left with a few options. Suck it up and pay the money for the 100 licenses. Run some sort of hybrid solution whether it be AWS, Oracle 
+Cloud, something else to take advantage where I can take advantage of on-demand licensing. Or simply switch away from a paid license. Now this doesn't mean that you're not paying support, but you're not locked into paying it at all or to a specific vendor.
+
+It does look like Oracle might be changing their tune on some things, but overall it still seems that they are going with business as usual. High license costs and no flexibility will not be tenable in the coming future. They may be able to hold onto loyal customers, but once the process of having a more elastic system become a forgone conclusion I would see it hard to justify paying the Oracle Premium.
+
+I hope I'm wrong, may be Oracle will be flexible no matter the situation, but I somehow doubt it. Based on everything I have seen so far they will likely keep a solid core or user based model.
+ 
