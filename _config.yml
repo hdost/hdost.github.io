@@ -8,9 +8,9 @@
 # Site settings
 title: Harold Dost's Blog
 email: me@hdost.com
-description: > 
+description: >
   This is a blog about the personal thoughts and feelings, sometimes
-  even hard information from Harold Dost, SRE DevLead at Criteo Corp.
+  even hard information from Harold Dost, SRE at Criteo SA.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.harolddost.com" # the base hostname & protocol for your site
 twitter_username: hdost
